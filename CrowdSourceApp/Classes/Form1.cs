@@ -20,8 +20,7 @@ namespace CrowdSourceApp
         {
             InitializeComponent();
             string result;
-            SCCC.UpdateGamesFeed(out result);
-            MessageBox.Show(result);
+            
             
             if (System.Diagnostics.Debugger.IsAttached)//If in debugger do this{}
             {
